@@ -11,8 +11,8 @@ import logging
 from logging.handlers import RotatingFileHandler
 
 #force user to join your backup channel leave 0 if you don't need.
-FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1002296712805"))
-FORCE_SUB_CHANNEL2 = int(os.environ.get("FORCE_SUB_CHANNEL2", "-1002199469764"))
+FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1002188876691"))
+FORCE_SUB_CHANNEL2 = int(os.environ.get("FORCE_SUB_CHANNEL2", "-1002362235577"))
 
 if FORCE_SUB_CHANNEL > FORCE_SUB_CHANNEL2:
     temp = FORCE_SUB_CHANNEL2 
@@ -31,13 +31,13 @@ APP_ID = int(os.environ.get("APP_ID", "20071888"))
 #your api hash from https://my.telegram.org/apps
 API_HASH = os.environ.get("API_HASH", "1c4cb9d94b23282abd9ae2a87a521b53")
 #your channel_id from https://t.me/MissRose_bot by forwarding dummy message to rose and applying command `/id` in reply to that message
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002294546846"))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002216311890"))
 #your id of telegram can be found by https://t.me/MissRose_bot with '/id' command
 OWNER_ID = int(os.environ.get("OWNER_ID", "6943832981"))
 #port set to default 8080
-PORT = os.environ.get("PORT", "6596")
+PORT = os.environ.get("PORT", "6296")
 #your database url mongodb only You can use mongo atlas free cloud database
-DB_URL = os.environ.get("DB_URL", "mongodb+srv://Cute:aloksingh@cute.1tbj1.mongodb.net/?retryWrites=true&w=majority")
+DB_URL = os.environ.get("DB_URL", "mongodb+srv://Dam:aloksingh@cluster0.6z0hq.mongodb.net/?retryWrites=true&w=majority")
 #your database name
 DB_NAME = os.environ.get("DB_NAME", "filesharexbot")
 
@@ -62,9 +62,9 @@ https://dashboard.shareus.io/
 USE_SHORTLINK = True if os.environ.get('USE_SHORTLINK', "TRUE") == "TRUE" else False 
 # only shareus service known rightnow rest you can test on your own
 SHORTLINK_API_URL = os.environ.get("SHORTLINK_API_URL", "inshorturl.com")
-# SHORTLINK_API_KEY = os.environ.get("SHORTLINK_API_KEY", "1c028cc8fe7d0764eed4ab12bb222899ed8fbac4")
+# SHORTLINK_API_KEY = os.environ.get("SHORTLINK_API_KEY", "6f53c862c70eefb04d8f8d18953100d35ebc066c")
 #use this key if not working ☠️ (jokin!!)
-SHORTLINK_API_KEY = os.environ.get("SHORTLINK_API_KEY", "1c028cc8fe7d0764eed4ab12bb222899ed8fbac4")
+SHORTLINK_API_KEY = os.environ.get("SHORTLINK_API_KEY", "6f53c862c70eefb04d8f8d18953100d35ebc066c")
 #add your custom time in secs for shortlink expiration.
 # 24hr = 86400
 # 12hr = 43200
