@@ -9,7 +9,7 @@ from datetime import datetime
 
 from config import ADMINS, API_HASH, APP_ID, LOGGER, TG_BOT_TOKEN, TG_BOT_WORKERS, FORCE_SUB_CHANNEL,FORCE_SUB_CHANNEL2, CHANNEL_ID, PORT, OWNER_ID
 import pyrogram.utils
-pyrogram.utils.MIN_CHANNEL_ID = -1009147483647
+pyrogram.utils.MIN_CHANNEL_ID = -1002104237587
 
 # fix for current pyrogram 
 from pyrogram import utils
@@ -90,7 +90,7 @@ class Bot(Client):
         )
 
         self.set_parse_mode(ParseMode.HTML)
-        self.LOGGER(__name__).info(f"𝚃𝚑𝚒𝚜 𝙱𝚘𝚝 𝙸𝚜 𝙼𝚊𝚍𝚎 𝙱𝚢 @Yae_X_Miko!")
+        self.LOGGER(__name__).info(f"𝚃𝚑𝚒𝚜 𝙱𝚘𝚝 𝙸𝚜 𝙼𝚊𝚍𝚎 𝙱𝚢 @zblivebot!")
         self.username = usr_bot_me.username
 
 
