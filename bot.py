@@ -102,4 +102,4 @@ class Bot(Client):
 
     async def stop(self, *args):
         await super().stop()
-        self.LOGGER(__name__).info("𝚈𝚘𝚞𝚛 𝙱𝚘𝚝 𝙷𝚊𝚜 𝙱𝚎𝚎𝚗 𝚂𝚝𝚘𝚙𝚙𝚎𝚍 𝙲𝚘𝚗𝚝𝚊𝚌𝚝 @Yae_X_Miko")
+        self.LOGGER(__name__).info("𝚈𝚘𝚞𝚛 𝙱𝚘𝚝 𝙷𝚊𝚜 𝙱𝚎𝚎𝚗 𝚂𝚝𝚘𝚙𝚙𝚎𝚍 𝙲𝚘𝚗𝚝𝚊𝚌𝚝 @zblivebot")
