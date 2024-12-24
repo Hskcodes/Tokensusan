@@ -110,7 +110,7 @@ CUSTOM_CAPTION = os.environ.get("CUSTOM_CAPTION", "<b>None</b>")
 PROTECT_CONTENT = True if os.environ.get("PROTECT_CONTENT", "TRUE") == "TRUE" else False
 #used if you dont need buttons on database channel.
 # True for yes False if no
-DISABLE_CHANNEL_BUTTON = True if os.environ.get("DISABLE_CHANNEL_BUTTON", "TRUE") == "TRUE" else False
+DISABLE_CHANNEL_BUTTON = True if os.environ.get("DISABLE_CHANNEL_BUTTON", "False") == "TRUE" else False
 #you can add admin inside the bot(bug right now will fix later)
 
 try:
